@@ -22,7 +22,7 @@
 # OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 #
 # Usage:
-#     shell> sudo bash -c "$(wget -qO- https://raw.githubusercontent.com/seingshinlee/outline-vpn-mirrors/dev/scripts/outline-vpn-ubuntu-one-click-script.sh)"
+#     shell> sudo bash -c "$(wget -qO- https://raw.githubusercontent.com/seingshinlee/outline-vpn-mirrors/beta/scripts/outline-vpn-ubuntu-one-click-script.sh)"
 # OS restrictions:
 #     Only Ubuntu Linux 19.04, 18.10, 18.04 LTS or 16.04 LTS can be supported!
 
@@ -430,7 +430,7 @@ install_outline_manager_client() {
     mkdir -p outline/outline-manager-client
     sudo mv Outline-Manager.AppImage ${cur_dir}/outline-manager-client
 
-    seingshinlee_pre_url="https://raw.githubusercontent.com/seingshinlee/outline-vpn-mirrors/dev/statics"
+    seingshinlee_pre_url="https://raw.githubusercontent.com/seingshinlee/outline-vpn-mirrors/beta/statics"
     if [ ! -f "outline-manager-client.png" ]; then
         sudo wget ${seingshinlee_pre_url}/outline-manager-client.png
     fi
@@ -470,7 +470,7 @@ install_outline_client() {
     mkdir -p outline/outline-client
     sudo mv Outline-Client.AppImage ${cur_dir}/outline-client
 
-    seingshinlee_pre_url="https://raw.githubusercontent.com/seingshinlee/outline-vpn-mirrors/dev/statics"
+    seingshinlee_pre_url="https://raw.githubusercontent.com/seingshinlee/outline-vpn-mirrors/beta/statics"
 
     if [ ! -f "outline-client.png" ]; then
         sudo wget ${seingshinlee_pre_url}/outline-client.png
@@ -751,7 +751,7 @@ option_between_26_and_27() {
 exit_information() {
     echo -e "> ${Okay} Now, you have exited the shell script."
     echo -e "> ${Okay} If you want to continue executing the script?"
-    echo -e "> ${Okay} Please copy this command: <sudo bash -c \"\$(wget -qO- https://raw.githubusercontent.com/seingshinlee/outline-vpn-mirrors/dev/scripts/outline-vpn-ubuntu-one-click-script.sh)\"> and paste into Terminal. Enter to continue... Done."
+    echo -e "> ${Okay} Please copy this command: <sudo bash -c \"\$(wget -qO- https://raw.githubusercontent.com/seingshinlee/outline-vpn-mirrors/beta/scripts/outline-vpn-ubuntu-one-click-script.sh)\"> and paste into Terminal. Enter to continue... Done."
     exit 1
 }
 
