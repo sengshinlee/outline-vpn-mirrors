@@ -298,7 +298,7 @@ Keep that information safe, as you'll need it in the other steps. For now, rejoi
 First, download Linux AppImages for [Outline-Manager](https://raw.githubusercontent.com/Jigsaw-Code/outline-releases/master/manager/stable/Outline-Manager.AppImage) Client and [Outline](https://raw.githubusercontent.com/Jigsaw-Code/outline-releases/master/client/stable/Outline-Client.AppImage) Client by above steps **#2 Get Outline Manager Client** and **#3 Get Outline Client**. And then, download icons for the two clients:
 
 ```bash
-$ sudo wget https://raw.githubusercontent.com/seingshinlee/outline-vpn-mirrors/dev/statics/outline-manager-client.png && sudo wget https://raw.githubusercontent.com/seingshinlee/outline-vpn-mirrors/dev/statics/outline-client.png
+$ sudo wget https://raw.githubusercontent.com/seingshinlee/outline-vpn-mirrors/beta/statics/outline-manager-client.png && sudo wget https://raw.githubusercontent.com/seingshinlee/outline-vpn-mirrors/beta/statics/outline-client.png
 ```
 
 #### Step2 Create specified directories
@@ -408,13 +408,13 @@ Usage:
 Directly, you can take the command into Terminal and enter to continue.
 
 ```bash
-$ sudo bash -c "$(wget -qO- https://raw.githubusercontent.com/seingshinlee/outline-vpn-mirrors/dev/scripts/outline-vpn-ubuntu-one-click-script.sh)"
+$ sudo bash -c "$(wget -qO- https://raw.githubusercontent.com/seingshinlee/outline-vpn-mirrors/beta/scripts/outline-vpn-ubuntu-one-click-script.sh)"
 ```
-Or you can [🔰Download](https://codeload.github.com/seingshinlee/outline-vpn-mirrors/zip/dev) this script to you computer.
+Or you can [🔰Download](https://codeload.github.com/seingshinlee/outline-vpn-mirrors/zip/beta) this script to you computer.
 
 ```bash
-$ sudo unzip outline-vpn-mirrors-dev.zip
-$ cd outline-vpn-mirrors-dev/scripts
+$ sudo unzip outline-vpn-mirrors-beta.zip
+$ cd outline-vpn-mirrors-beta/scripts
 $ bash outline-vpn-ubuntu-one-click-script.sh
 ```
 ## #6 Keywords
