@@ -409,9 +409,7 @@ Directly, you can take the command into Terminal and enter to continue.
 
 ```bash
 $ sudo bash -c "$(wget -qO- https://raw.githubusercontent.com/seingshinlee/outline-vpn-mirrors/master/scripts/outline-vpn-ubuntu-one-click-script.sh)"
-
 ```
-
 Or you can [🔰Download](https://codeload.github.com/seingshinlee/outline-vpn-mirrors/zip/master) this script to you computer.
 
 ```bash
@@ -419,7 +417,6 @@ $ sudo unzip outline-vpn-mirrors-master.zip
 $ cd outline-vpn-mirrors-master/scripts
 $ bash outline-vpn-ubuntu-one-click-script.sh
 ```
-
 ## #6 Keywords
 
 `VPN`、`ShadowSocks`、`Proxy`、`GFW`、`GFW Proxy`、`One-click Script`、`Ubuntu`、`科学上网`、`爱国上网`、`自由上网`、`突破网络封锁`、`影梭`、`翻墙`、`扶墙`、`代理`、`破墙`、`国际新闻工作者`、`防火长城`、`功夫网`、`中国国家防火墙`、`一键脚本`
