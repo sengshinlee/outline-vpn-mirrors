@@ -389,7 +389,15 @@ At this point, you completely installed and configured all. Now, Let us reboot c
 
 ## #5 One-click Shell Script
 
-TODO
+Usage:
+
+Directly, you can take the command into Terminal and enter to continue.
+
+```bash
+$ sudo bash -c "$(wget -qO- https://raw.githubusercontent.com/seingshinlee/outline-vpn-mirrors/master/scripts/outline-vpn-ubuntu-one-click-script.sh)"
+```
+
+Or you can  [🔰Download](https://raw.githubusercontent.com/seingshinlee/outline-vpn-mirrors/master/scripts/outline-vpn-ubuntu-one-click-script.sh) this script to you computer.
 
 ## #6 Keywords
 
