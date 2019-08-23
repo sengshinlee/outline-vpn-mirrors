@@ -6,8 +6,8 @@
   - [#1 Introduction](#1-introduction)
     - [1 - Why Outline](#1---why-outline)
       - [❤️Internet access you can trust](#%e2%9d%a4%ef%b8%8finternet-access-you-can-trust)
-      - [🔐Strong privacy and security](#%f0%9f%94%90strong-privacy-and-security)
-      - [🛠Built for news organizations](#%f0%9f%9b%a0built-for-news-organizations)
+      - [🏆Strong privacy and security](#%f0%9f%94%90strong-privacy-and-security)
+      - [🌟Built for news organizations](#%f0%9f%9b%a0built-for-news-organizations)
     - [2 - About us](#2---about-us)
     - [3 - Get involved](#3---get-involved)
     - [4 - Help](#4---help)
@@ -389,7 +389,21 @@ At this point, you completely installed and configured all. Now, Let us reboot c
 
 ## #5 One-click Shell Script
 
-TODO
+Usage:
+
+Directly, you can take the command into Terminal and enter to continue.
+
+```bash
+$ sudo bash -c "$(wget -qO- https://raw.githubusercontent.com/seingshinlee/outline-vpn-mirrors/master/scripts/outline-vpn-ubuntu-one-click-script.sh)"
+```
+
+Or you can [🔰Download](https://codeload.github.com/seingshinlee/outline-vpn-mirrors/zip/master) this script to you computer.
+
+```bash
+$ sudo unzip outline-vpn-mirrors-master.zip
+$ cd outline-vpn-mirrors-master/scripts
+$ bash outline-vpn-ubuntu-one-click-script.sh
+```
 
 ## #6 Keywords
 
